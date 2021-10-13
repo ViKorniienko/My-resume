@@ -9,23 +9,60 @@
     <link rel="stylesheet" href="/css/styles.css">
     <style>
         body {
-            background-image: url(Images/head2.png);
-            background-repeat: no-repeat;
-            background-size: 100%;
+            background-color: rgb(255, 238, 223);
+            color: rgb(116, 59, 55);
+            font-family: Calibri;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid;
+        }
+
+        button {
+            border-color: rgb(116, 59, 55);
+            color: rgb(116, 59, 55);
+            border: 1px thick;
+            font-style: normal;
+            margin-left: 85%;
+        }
+
+        a {
+            font-family: calibri;
+            color: rgb(116, 59, 55);
+        }
+
+        contacts {
+            border: thin;
+            padding-right: 150px;
         }
     </style>
 </head>
 
-<body>
+<body id="top">
 
+    <div class="resume">
+        <button>
+            <a href="../resume-ukr/index.html" target="blank">UA</a>
+        </button>
+        <img src="Images/my photo Profile.jpg" alt="photo Profile" width="200" height="200" title="photo Profile">
 
-    <img src="Images/my photo Profile.jpg" alt="photo Profile" width="200" height="200" title="photo Profile"
-        class="round">
+    </div>
+    <div class="contacts">
 
+        <h2 class="name">VIKTORIIA KORNIIENKO | front-end</h2>
+        <p>Age: 37 age old (18.12.1983)</p>
+        <p><b>+380950112914<br>viko83vk@gmail.com</b></p>
+        <!--собираюсь ввести мейл ту-->
+        <a href="https://www.linkedin.com/in/viktoriia-korniienko-aa7458195/" target="_blank">
+            <img src="Images/in.png" alt="icon in" width="40" height="40" title="icon in"></a>
+        <a href="https://t.me/ViKo_tme" target="_blank">
+            <img src="Images/tg.png" alt="icon tg" width="40" height="40" title="icon tg"></a>
+        <a href="https://github.com/ViKorniienko" target="_blank">
+            <img src="Images/hb.png" alt="icon hb" width="40" height="40" title="icon hb"></a>
 
-    <h1>VIKTORIIA KORNIIENKO | front-end</h1>
-
-    <p>Age - 37 age old (18.12.1983)</p>
+    </div>
 
     <h3>WORK EXPERIENCE</h3>
     <ul>
@@ -55,8 +92,8 @@
 
     <h3>SOFT SKILLS</h3>
     <ul>
-        <li>high responsibility </li>
-        <li>ability to switch </li>
+        <li>responsibility </li>
+        <li>ability to quickly switch between different tasks</li>
         <li>flexibility</li>
         <li>creativity</li>
         <li>thirst for new knowledge</li>
@@ -77,26 +114,32 @@
     </ul>
     <h3>My completed tasks</h3>
     <table>
-        <tr>
-            <th>Lesson 1</th>
-            <th>Lesson 2</th>
-            <th>Lesson 3</th>
-        </tr>
-        <tr>
-            <td><a href="https://vikorniienko.github.io/My-resume/" target="_blank">Lesson 1</a></td>
-            <td><a href="https://www.facebook.com/ViKo1983" target="_blank">Facebook</a></td>
-            <td><a href="https://www.youtube.com/channel/UCeIhR1EWInQ0ejY75alCgIA" target="_blank">YouTube</a></td>
-        </tr>
-    </table>
-    <p>MY CONTACTS</p>
-    <p><b>+380950112914<br>viko83vk@gmail.com</b></p>
-    <a href="https://www.linkedin.com/in/viktoriia-korniienko-aa7458195/" target="_blank">
-        <img src="Images/in.png" alt="icon in" width="40" height="40" title="icon in"></a>
-    <a href="https://t.me/ViKo_tme" target="_blank">
-        <img src="Images/tg.png" alt="icon tg" width="40" height="40" title="icon tg"></a>
-    <a href="https://www.facebook.com/ViKo1983" target="_blank">
-        <img src="Images/fb.png" alt="icon fb" width="40" height="40" title="icon fb"></a>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Task 1</th>
+                <th>Task 2</th>
 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1<br>2
+                </td>
+                <td><a href="https://vikorniienko.github.io/My-resume/" target="_blank">resume-eng</a>
+                    <br>
+                    <a href="https://vikorniienko.github.io/My-resume/" target="_blank">resume-ukr</a>
+                </td>
+                <td><a href="https://vikorniienko.github.io/Internet-addresses/" target="_blank">internet
+                        addresses</a>
+                    <br>
+                    <a href="https://vikorniienko.github.io/shopping-list/" target="_blank">shopping list</a>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <p><a href="#top">Up</a></p>
 </body>
 
 </html>
